@@ -1,5 +1,12 @@
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: white;
+  color: #121212;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #fff;
 }
 
 h1,
