@@ -1,14 +1,14 @@
 $(function () {
-    $(".carousel").carousel({ interval: 2000 });
-    $("#carouselButton").click(function () {
-        if ($("#carouselButton").children("i").hasClass("fa-pause")) {
-            $(".carousel").carousel("pause");
-            $("#carouselButton").children("i").removeClass("fa-pause");
-            $("#carouselButton").children("i").addClass("fa-play");
-        } else {
-            $(".carousel").carousel("cycle");
-            $("#carouselButton").children("i").removeClass("fa-play");
-            $("#carouselButton").children("i").addClass("fa-pause");
-        }
-    });
+  $("#reserveButton1").click(function () {
+      $("#reserveModal").modal("show");
+  });
+  $("#reserveButton2").click(function () {
+    $("#reserveModal").modal("show");
+  });
+  $("#reserveButton3").click(function () {
+    $("#reserveModal").modal("show");
+  });
+  $("#reserveButton4").click(function () {
+    $("#reserveModal").modal("show");
+  });
 });
